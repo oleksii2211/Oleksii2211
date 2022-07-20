@@ -25,12 +25,13 @@ html,body{
 input::-ms-clear{display: none;}
 button{cursor: pointer;}
 button::-moz-focus-inner {padding:0;border:0;}
-a, a:visited{text-decoration: none;}
+
 a:hover{text-decoration: none;}
 ul li{list-style: none;}
 img{vertical-align: top;}
 h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight: 400;} */
-img{
+a, a:visited{text-decoration: none;}
+.ava{
     height: 200px;
     border-radius: 50%;
     width: 200px;
@@ -83,4 +84,17 @@ h2{
     font-family: Georgia, 'Times New Roman', Times, serif;
     font-size: 20px;
     font-weight: 700;
+}
+.social a:hover{
+    transform: scale(1.1);
+}
+
+.insta{ width: 30px;
+
+}
+.social{
+display: flex;
+justify-content: space-around;
+max-width: 200px;
+margin: 0 auto;
 }
